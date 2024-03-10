@@ -1,0 +1,65 @@
+/* Orders.css */
+.orders-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #47e80dd8; /* Add a background color */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.orders-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333; /* Add a color */
+}
+
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff; /* Add a background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.order-item h2 {
+  margin-top: 0;
+  color: #555; /* Add a color */
+}
+
+.order-item p {
+  margin: 5px 0;
+  color: #777; /* Add a color */
+}
+
+.order-form {
+  margin-bottom: 20px;
+}
+
+.order-form input[type="text"],
+.order-form textarea {
+  width: 100%; /* Make inputs and textarea full width */
+  padding: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  margin-bottom: 10px; /* Add margin */
+}
+
+.order-form input[type="submit"] {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add border radius */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.order-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}

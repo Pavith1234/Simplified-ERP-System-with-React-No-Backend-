@@ -1,0 +1,35 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-summary {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dashboard-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .dashboard-links a:hover {
+    text-decoration: underline;
+  }
+  
